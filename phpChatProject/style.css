@@ -1,0 +1,20 @@
+#form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+}
+#form-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 750;
+  width: 500px;
+}
+#register {
+  margin-top: 150px;
+}
+#login {
+  margin-top: 100px;
+}
