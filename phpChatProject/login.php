@@ -1,3 +1,6 @@
+<?php
+    include("loginInfo.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,6 +41,8 @@
 
 </html>
 <?php
-
+    if($_SERVER['REQUEST_METHOD'] == "POST"){
+        validateLogin();
+    }
 ?>
     

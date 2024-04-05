@@ -1,3 +1,8 @@
+<?php
+    include("registerinfo.php")
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,3 +49,9 @@
     
 </body>
 </html>
+
+<?php
+  if($_SERVER['REQUEST_METHOD'] == "POST"){
+        validateFields();
+  }
+?>
